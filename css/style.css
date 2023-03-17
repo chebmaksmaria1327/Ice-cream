@@ -8,8 +8,8 @@ body {
 }
 
 body {
-
     font-family: 'Roboto', sans-serif;
+    font-family: 'Hind Madurai', sans-serif;
 }
 
 .wrapper {
@@ -35,9 +35,8 @@ a {
 }
 
 .hero {
-    background: #F2CEDA;
+    background: rgb(254, 241, 255);
     height: 100vh;
-
 }
 
 .header {
@@ -81,6 +80,12 @@ a {
     background: #D23166;
     font-weight: 500;
     line-height: 1.18;
+    height: 49px;
+    width: 165px;
+}
+
+.btn2 {
+    margin-top: 55px;
 }
 
 .content {
@@ -105,7 +110,9 @@ a {
 
 .title {}
 
-.content__title {}
+.content__title {
+    font-family: 'Fredoka One', cursive;
+}
 
 .title__element {
     color: #D23166;
@@ -114,7 +121,9 @@ a {
 
 .content__text {}
 
-.btn {}
+.btn {
+    border-radius: 5px;
+}
 
 .content__decor {
     width: 50%;
@@ -127,7 +136,7 @@ a {
     z-index: -10;
     width: 365px;
     height: 353px;
-    background: rgb(250, 144, 179);
+    background: rgb(255, 203, 231);
     display: block;
     border-radius: 50%;
     position: absolute;
@@ -141,9 +150,206 @@ a {
     background-image: url(../img/content/глазурь.png);
     display: block;
     position: absolute;
-    height: 70%;
+    background-position: center;
+    height: 75%;
     width: 100%;
-    background-size: contain;
+    background-size: 144%;
     background-repeat: no-repeat;
     bottom: -68px;
 }
+
+.food {
+    padding: 98px 252px;
+    background: rgba(250, 250, 250, 0.856);
+}
+
+.container {}
+
+.food__list {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+
+}
+
+.food__item {
+    background: rgba(255, 255, 255, 1);
+    padding: 33px 26px 27px 26px;
+    border-radius: 7px;
+
+}
+
+.dish {
+    overflow: hidden;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.dish__img-wrap {
+    height: 45px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.dish__img {
+    object-fit: cover;
+    text-align: center;
+
+}
+
+.dish__desc {
+    padding: 39px;
+    text-align: center;
+}
+
+.dish__title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.dish__text {}
+
+.paragraph {
+    font-family: Hind Madurai;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.order {
+    padding: 73px 0px 85px;
+    background: rgba(248, 237, 240, 1);
+}
+
+.order__contant {
+    display: flex;
+    align-items: center;
+}
+
+.order__column {
+    width: 50%;
+}
+
+.order__img-wrap {}
+
+.order__pic {}
+
+.order__info {
+    max-width: 371px;
+    margin-left: 98px;
+}
+
+.order__title {
+    font-size: 44.2px;
+    font-weight: 500;
+    line-height: 52px;
+    margin-bottom: 24px;
+}
+
+.order__text {
+    margin-bottom: 13px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(21, 1, 1, 1);
+
+}
+
+.btn {}
+
+.feedback__slider {
+    max-width: 256px;
+}
+
+.avatars-slider {
+    padding: 0px 38px;
+    position: relative;
+
+}
+
+.avatars-slider__ctlrs {
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translate(0px, -50%);
+    justify-content: space-between;
+
+}
+
+.avatars-slider__ctrl_direction_prew {
+    transform: scale(-1, 1);
+}
+
+.avatars-slider__icon {}
+
+.avatars-slider__ctrl_direction_next {}
+
+.avatars-slider__list {
+    display: flex;
+}
+
+.avatars-slider__item {}
+
+.avatar {}
+
+.avatar__img {}
+
+.active {}
+
+
+
+.market__ice-cream {}
+
+.container {}
+
+.market__header {
+    text-align: center;
+}
+
+.market {}
+
+.nav {
+    text-align: center;
+}
+
+.nav__list {}
+
+.market__list {}
+
+.nav__item {}
+
+.nav__link {}
+
+.market__info {}
+
+.market__info-1 {}
+
+.market__flex {}
+
+.market__img {}
+
+.market__ice-img {}
+
+.mrk {}
+
+.market__headline {}
+
+.market__desc {}
+
+.mrk-price {}
+
+.market__price {}
+
+.market__price-delete {}
+
+.btn {}
