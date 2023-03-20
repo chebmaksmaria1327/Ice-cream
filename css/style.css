@@ -308,21 +308,50 @@ a {
 
 
 
-.market__ice-cream {}
+.market__ice-cream {
+    height: 2347px;
+}
 
 .container {}
 
 .market__header {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 145px;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 61px;
+    color: #150101;
 }
 
 .market {}
 
 .nav {
     text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
 }
 
-.nav__list {}
+.nav__list {
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.nav__link-1 {
+    text-decoration: underline #D64374;
+
+}
 
 .market__list {}
 
@@ -332,24 +361,71 @@ a {
 
 .market__info {}
 
-.market__info-1 {}
+.market__info-1 {
+    display: flex;
+}
 
-.market__flex {}
+.market__info-1:nth-child(even) .market__flex {
+    flex-direction: row-reverse;
+}
+
+.market__flex {
+    display: flex;
+    justify-content: center;
+}
 
 .market__img {}
 
 .market__ice-img {}
 
-.mrk {}
+.mrk {
+    margin-left: 102px;
+    margin-right: 102px;
+}
 
-.market__headline {}
+.market__headline {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    margin-top: 43px;
+    margin-bottom: 15px;
+}
 
-.market__desc {}
+.market__desc {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
 
-.mrk-price {}
+.mrk-price {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
-.market__price {}
+.market__price {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+}
 
-.market__price-delete {}
+.market__price-delete {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration-line: line-through;
+    color: #000000;
+    opacity: 0.7;
+    margin-left: 10px;
+    margin-top: 5px;
+}
 
 .btn {}
